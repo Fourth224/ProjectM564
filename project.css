@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    background-color: rgb(250, 194, 146);
+    margin: 0px 15% 0px 15%;
+}
+
+.box2{
+    background-color: transparent;
+    margin: 0px 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.img{
+    border-radius: 25px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nameBG{
+    font-size: 40px;
+    margin: 20px 0px 0px 0px;
+}
+
+.tag{
+    margin-top: 0px;
+    color: gray;
+}
+
+a{
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+    border: 0px;
+    background-color: transparent;
+    position: relative;
+    margin: 10px;
+    transition: all 0.25s ease;
+    margin: 0px;
+    text-decoration: none;
+}
+a:hover{
+    color: royalblue;
+}
+
+.btp-1:hover::after{
+    width: 100%;
+    background-color: royalblue;
+}
+.btp-1::after{
+    content: "";
+    position: absolute;
+    border-radius: inherit;
+    width: 10%;
+    height: 5px;
+    background: black;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+    transition: all 0.25s ease;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.knowledge-area .head{
+    font-size: 27px;
+}
+
+.knowledge-area .head:hover{
+    color: royalblue;
+}
+
+.knowledge-area .body{
+    font-size: 23px;
+}
